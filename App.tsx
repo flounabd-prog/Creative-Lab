@@ -112,7 +112,7 @@ const App: React.FC = () => {
             <div className="relative max-w-7xl mx-auto space-y-4 md:space-y-10 px-2">
               <div className="flex flex-wrap justify-center gap-2 md:gap-4">
                 <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full bg-white border border-indigo-100 text-indigo-600 text-[10px] md:text-lg font-black uppercase tracking-widest shadow-lg shadow-indigo-100/30">
-                  منصة الابتكار الرقمي
+                  محرك الإبتكار
                 </div>
                 <button 
                   onClick={toggleLibrary}
@@ -188,7 +188,7 @@ const App: React.FC = () => {
                 onClick={backToHome}
                 className="w-full md:w-auto px-10 py-5 md:py-8 bg-indigo-600 text-white font-black rounded-2xl md:rounded-[2.5rem] shadow-xl text-lg md:text-3xl transition-all active:scale-95"
               >
-                ابتكر في تحدٍ جديد
+                ابتكر في تحد جديد
               </button>
             </div>
           </div>
