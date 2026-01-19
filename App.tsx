@@ -1,11 +1,11 @@
 
 import React, { useState, useEffect } from 'react';
-import { Layout } from './components/Layout.tsx';
-import { ProblemForm } from './components/ProblemForm.tsx';
-import { SolutionDisplay } from './components/SolutionDisplay.tsx';
-import { LoadingOverlay } from './components/LoadingOverlay.tsx';
-import { TechniquesLibrary } from './components/TechniquesLibrary.tsx';
-import { generateCreativeSolution } from './services/geminiService.ts';
+import { Layout } from './Layout.tsx';
+import { ProblemForm } from './ProblemForm.tsx';
+import { SolutionDisplay } from './SolutionDisplay.tsx';
+import { LoadingOverlay } from './LoadingOverlay.tsx';
+import { TechniquesLibrary } from './TechniquesLibrary.tsx';
+import { generateCreativeSolution } from './geminiService.ts';
 import { CreativeSolution, ProblemHistory } from './types.ts';
 
 const App: React.FC = () => {
