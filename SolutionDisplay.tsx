@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { CreativeSolution } from '../types.ts';
+import { CreativeSolution } from './types.ts';
 
 interface SolutionDisplayProps {
   solution: CreativeSolution;
