@@ -1,6 +1,6 @@
 
 import React, { useState, useMemo } from 'react';
-import { CreativityTechnique } from '../types.ts';
+import { CreativityTechnique } from './types.ts';
 
 const CATEGORIES = {
   all: { title: "الكل", color: "bg-slate-900", text: "text-white" },
