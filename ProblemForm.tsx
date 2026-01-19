@@ -1,6 +1,6 @@
 
 import React, { useState } from 'react';
-import { CreativityTechnique } from '../types.ts';
+import { CreativityTechnique } from './types.ts';
 
 // Define the missing props interface
 interface ProblemFormProps {
