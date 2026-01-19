@@ -1,6 +1,6 @@
 
 import { GoogleGenAI, Type } from "@google/genai";
-import { CreativeSolution, CreativityTechnique } from "../types.ts";
+import { CreativeSolution, CreativityTechnique } from "./types.ts";
 
 export async function generateCreativeSolution(problemDescription: string): Promise<CreativeSolution> {
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
