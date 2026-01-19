@@ -6,7 +6,7 @@ export async function generateCreativeSolution(problemDescription: string): Prom
   const ai = new GoogleGenAI({ apiKey: process.env.API_KEY });
   
   const response = await ai.models.generateContent({
-    model: "gemini-3-pro-preview",
+    model: "gemini-3-flash-preview",
     contents: `بصفتك "كبير استشاريي استراتيجيات الابتكار العالمي"، مهمتك هي تحليل التحدي التالي وتقديم "مصفوفة حلول" فائقة الدقة:
     التحدي: "${problemDescription}"
 
